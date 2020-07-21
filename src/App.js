@@ -14,8 +14,6 @@ state = {
       this.setState({
         movies: movies.results
       })
-      console.log(movies)
-
     } catch(e) {
       console.log(e)
     }
@@ -33,6 +31,7 @@ state = {
 				</header>
 				{this.state.movies.map((movie) => (
 					<Movie
+          movie={movie}
 						key={movie.id}
 						title={movie.title}
 						overview={movie.overview}
