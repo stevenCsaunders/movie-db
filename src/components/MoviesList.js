@@ -24,7 +24,7 @@ class MoviesList extends Component {
 		return (
 			<MovieGrid>
 				{this.state.movies.map((movie) => (
-					<Movie movie={movie} />
+					<Movie movie={movie} key={movie.id} />
 				))}
 			</MovieGrid>
 		)
