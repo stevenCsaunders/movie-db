@@ -14,7 +14,7 @@ const App = () => {
 						src={logo}
 						className="App-logo"
 						alt="logo"
-						height="100"
+						height="150"
 					/>
 				</Link>
 			</header>
